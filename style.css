@@ -1,0 +1,145 @@
+.heder {
+    display: flex;
+    background: blue;
+    justify-content: space-around;
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+    animation: 5s infinite anim;
+    -ms-flex-item-align: center;
+}
+.grid{
+
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdDfig5EMXyCzIC7KnRNLARx_PfdL3ap1yeA&usqp=CAU");
+
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.p {
+    display: flex;
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px rgb(255, 0, 55), 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+}
+
+.abt {
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+    -ms-flex-item-align: center;
+}
+
+.animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    -ms-flex-align: start;
+}
+
+.teddy:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.rabbit:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.lion:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.snake:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.mouse:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.Peigon:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.gorilla:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.camel:hover {
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+
+.ab {
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+    animation: infinite 5s aim;
+    transition: 0.6s;
+}
+
+.pp h3 {
+    border: 2px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+}
+
+.full {
+    background-image: url("https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/2021/03/2021_iStock_LatestBGTrends_Hero.jpg.jpeg");
+}
+
+@keyframes anim {
+    0% {
+        background: red;
+    }
+    33% {
+        background: lightgreen;
+    }
+    66% {
+        background: blue;
+    }
+    100% {
+        background: red;
+    }
+}
